@@ -1,0 +1,17 @@
+name: repo2 calling reusable function of repo 1 
+
+  
+
+on: 
+
+  push: 
+
+    branches: [ main ] 
+
+  
+
+jobs: 
+
+  check-reusability-job: 
+
+    uses: paras-31/test-reusable-g-action/.github/workflows/blank.yml@main
